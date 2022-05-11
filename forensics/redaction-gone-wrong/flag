@@ -1,0 +1,1 @@
+tmp=$(mktemp); pdftotext Financial_Report_for_ABC_Labs.pdf "$tmp"; grep -oE picoCTF{.*?} "$tmp"
