@@ -1,0 +1,1 @@
+echo  | python3 clean.flag.py | grep -oE picoCTF{.*?} --color=none

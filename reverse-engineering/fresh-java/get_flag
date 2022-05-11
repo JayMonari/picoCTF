@@ -1,0 +1,1 @@
+grep -o "'.'" KeygenMe/sources/defpackage/KeygenMe.java | tac | tr -d "'\n"
